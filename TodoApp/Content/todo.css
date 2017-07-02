@@ -1,0 +1,39 @@
+﻿.container {
+    width:450px; 
+    border:1px solid #dddddd; 
+    padding: 10px;
+    margin-top:10px
+}
+.done-text {
+    text-decoration:line-through;
+    color: #dddddd;
+}
+
+.input-new-item {
+    display: block;
+    width: 100%;
+    padding: 3px 8px;
+    font-size: 14px;
+}
+
+.table td:first-child {
+    width: 5px;
+}
+
+.table td:last-child {
+    text-align: right;
+}
+
+a {
+    text-decoration: underline;
+}
+
+footer div:first-child {
+    padding-left: 5px;
+    float: left;
+}
+
+footer div:last-child {
+    padding-right: 6px;
+    float: right;
+}
