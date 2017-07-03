@@ -6,14 +6,6 @@
 
         }
 
-        set items (items){
-            this._.items = items;
-        }
-
-        get items() {
-            return this._items;
-        }
-
         set newItem (item) {
             this._newItem = item;
         }

@@ -50,13 +50,18 @@
     <Content Include="App\database\data.manager.js" />
     <Content Include="App\database\storage.provider.js" />
     <Content Include="App\helpers\common.helper.js" />
+    <Content Include="App\viewmodels\home.base.js" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\todo.css" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.2.1.min.js" />
-    <Content Include="Scripts\sinon-2.3.6.js" />
+    <Content Include="Scripts\sinon-1.9.1.js" />
+    <Content Include="Scripts\sinon-qunit-1.0.0.js" />
     <Content Include="Scripts\underscore-min.js" />
+    <Content Include="Tests\fixtures\database\data.manager.tests.js" />
+    <Content Include="Tests\fixtures\helpers\common.helper.tests.js" />
     <Content Include="Tests\fixtures\model\todo.item.tests.js" />
+    <Content Include="Tests\fixtures\viewmodels\home.base.tests.js" />
     <Content Include="Tests\mocks\database\localstorage.provider.js" />
   </ItemGroup>
   <ItemGroup>
@@ -75,7 +80,6 @@
     <Content Include="Tests\test.config.js" />
     <Content Include="Tests\test.runner.js" />
   </ItemGroup>
-  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

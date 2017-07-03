@@ -15,6 +15,10 @@
                 storageProvider.save(item.id, item, false);
             }
 
+            deleteData(key) {
+                storageProvider.remove(key);
+            }
+
             reset() {
                 storageProvider.clear();
             }
